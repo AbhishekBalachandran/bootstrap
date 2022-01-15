@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="../files/bootstrap.min.css">
+	<script src="../files/jquery.min.js"></script>
+	<script src="../files/popper.min.js"></script>
+	<script src="../files/bootstrap.min.js"></script>
+	<style>
+		div{
+			text-align: center;
+			
+		}
+		h1{
+			color: white;
+			margin-top: 65px;
+		}
+		.col-sm-3{
+			background-color: #3D75FA;
+			height: 150px;
+		}
+		.col-sm-6{
+			background-color: darkorange;
+			height: 150px;
+		}
+		.row{
+			padding: 30px;
+		}
+		
+		@media (min-width: 576px) {
+			.col-sm-3{
+			background-color: #3D75FA;
+			height: 600px;
+			
+		}
+		.col-sm-6{
+			background-color: darkorange;
+			height: 600px;
+		}
+			h1{
+			color: white;
+			margin-top: 300px;
+			}
+			#1{
+				display: none;
+			}
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div style="margin-top: 30px" class="text-center">
+		<h2 id="1">Mobile Layout</h2>
+		<h2 id="2">Desktop Layout</h2>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3"><h1>NAV</h1></div>
+			<div class="col-sm-3 order-sm-2" style="background-color: red"><h1>WIDGET</h1></div>
+			<div class="col-sm-6 order-sm-1"><h1>CONTENT</h1></div>
+		</div>
+	</div>
+</body>
+</html>
