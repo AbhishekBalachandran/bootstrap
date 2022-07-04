@@ -16,7 +16,12 @@
   			list-style: none;
   			text-decoration: none;
   			outline: none;
-/*  			font-family: 'Open Sans', sans-serif;*/
+		}
+		.container{
+			 max-width: 410px;
+  			 width: 100%;
+ 			 height: auto;
+  			 margin: 40px auto;
 		}
 
 		img{
@@ -86,6 +91,16 @@
 		 .form .sign_btn:hover{
   				background-color: #279f43;
 			}
+		.new_create{
+			 border: 1px solid #d8dee2;
+    		border-radius: 5px;
+    		padding: 15px 20px;
+    		text-align: center;
+    		margin-bottom: 40px;
+		}
+		.new_create a.hover{
+			text-decoration: underline;
+		}
 		ul{
 			
 		}	
@@ -120,11 +135,11 @@
       <input type="password" class="input">
       <a href="#" class="forgot">Forgot password?</a>
     </div>
-    <div class="btn">
+    <div class="btn btn-block">
       <input type="submit" value="Sign in" class="sign_btn">
     </div>
   </div>
-  <div class="create_act">
+  <div class="new_create">
     <p>New to GitHub? <a href="#">Create an account.</a></p>
   </div>
 			<div class="footer container mt-5">
